@@ -80,7 +80,7 @@ local Toggle = Tab.Ra1:AddToggle("MyToggle",{
 })
 Tab.Ra1:AddButton({
   Title = "โพ หิน",
-  Description = "โพหินระยะไกล"
+  Description = "โพหินระยะไกล",
   Callback = function() 
     local args = {
     [1] = "fire",
